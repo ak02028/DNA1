@@ -32,7 +32,7 @@ int main(int argc,char *argv[])
 	}
 	int lena=a.size();cout<<gap;
 	int lenb=b.size();cout<<mismatch;
-	int matrix[lena+1][lenb+1];
+	int matrix[lena+1][lenb-1];
 	for(int i=0;i<lena+1;i++)
 	{
 		matrix[i][0]=i*gap;
