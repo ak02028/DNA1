@@ -28,15 +28,16 @@ int main(int argc,char *argv[])
 	{
 		gap=4;
 		mismatch=6;
+		match=-1;
 	}
 	int lena=a.size();cout<<gap;
 	int lenb=b.size();cout<<mismatch;
-	int matrix[lena+1][lenb+1];
+	int matrix[lena+1][lenb-1];
 	for(int i=0;i<lena+1;i++)
 	{
 		matrix[i][0]=i*gap;
 	}
-	for(int i=0;i<lenb+1;i++)
+	for(int i=0;i<lenb-1;i++)
 	{
 		matrix[0][i]=i*gap;
 	}
