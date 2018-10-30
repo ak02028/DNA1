@@ -12,9 +12,9 @@ int min(int a,int b)
 
 int main(int argc,char *argv[])
 {
-	string a,b;
+	string a,b,c;
 	cin>>a;
-
+	cin>>b;
 	cin>>b;
 	int gap,mismatch;
 	//cout<<a<<"  "<<b<<endl;
