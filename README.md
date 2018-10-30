@@ -16,12 +16,13 @@ int main(int argc,char *argv[])
 	cin>>a;
 	cin>>b;
 	cin>>b;
-	int gap,mismatch;
+	int gap,mismatch,match;
 	//cout<<a<<"  "<<b<<endl;
 	if(atoi(argv[1])==1)
 	{
           gap=6;
           mismatch=4;
+	  match=-1;
 	}
 	else if(atoi(argv[1])==2)
 	{
