@@ -37,7 +37,7 @@ int main(int argc,char *argv[])
 	{
 		matrix[i][0]=i*gap;
 	}
-	for(int i=0;i<lenb+1;i++)
+	for(int i=0;i<lenb-1;i++)
 	{
 		matrix[0][i]=i*gap;
 	}
