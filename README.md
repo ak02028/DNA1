@@ -28,6 +28,7 @@ int main(int argc,char *argv[])
 	{
 		gap=4;
 		mismatch=6;
+		match=-1;
 	}
 	int lena=a.size();cout<<gap;
 	int lenb=b.size();cout<<mismatch;
