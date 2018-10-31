@@ -6,7 +6,9 @@ int l = n + m; // maximum possible length
     int ypos = l; 
   
     // Final answers for the respective strings 
-    int xans[l+1], yans[l+1]; 
+    int xans[l+1], yans[l+1];
+    xs=1;
+    ys=1;
       
     while ( !(i == 0 || j == 0)) 
     { 
